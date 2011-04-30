@@ -1,0 +1,10 @@
+<% @pieces.each do |piece| %>
+	<h2><%= piece.name %></h2>
+	<%= link_to(piece) do %>
+		<img src="<%= piece.preview_img_url %>" /></a>
+	<% end %>
+<% end %>
+<br />
+<%= link_to 'New Piece', new_piece_path %>
+
+

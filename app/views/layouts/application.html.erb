@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio - Joe Flynn - I build intuitive interfaces.</title>
+  <%= stylesheet_link_tag :all %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+	<div id="outer" class="container_12">
+		<div class="grid_2 logo">
+			<img src="http://joeflynn.net/img/logo.png" alt="jf" />
+		</div>
+		<div class="grid_10">
+			<ul id="menu">
+				<li><a href="/about">About</a></li>
+				<li><a href="http://blog.joeflynn.net">Blog</a></li>
+				<li><a href="/works">Portfolio</a></li>
+				<li><a href="http://music.joeflynn.net">Music</a></li>
+				<li><a href="mailto:me@joeflynn.net">Contact</a></li>
+			</ul>
+		</div>
+		<div class="grid_9 prefix_3">
+			<%= yield %>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://use.typekit.com/apd4emw.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  	<%= javascript_include_tag :defaults %>
+</body>
+</html>

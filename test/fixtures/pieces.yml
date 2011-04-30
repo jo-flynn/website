@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  created: 2011-04-12
+  preview_img_url: MyString
+  full_img_url: MyString
+  note: MyString
+  visible: false
+
+two:
+  name: MyString
+  created: 2011-04-12
+  preview_img_url: MyString
+  full_img_url: MyString
+  note: MyString
+  visible: false

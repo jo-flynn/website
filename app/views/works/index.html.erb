@@ -1,0 +1,16 @@
+<ol id="works">
+	
+<% @works.each do |work| %>
+	<li class="work">
+	<h1 class="title">
+		<%= link_to(work) do %>
+			<%= work.name %>
+		<% end %>
+	</h1>
+	<%= link_to(work) do %>
+		<img src="<%= work.preview_img_url %>" /></a>
+	<% end %>
+	</li>
+<% end %>
+</ol>
+

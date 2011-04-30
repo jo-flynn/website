@@ -1,0 +1,14 @@
+<div class="piece">
+	<h1 class="title"> 
+		<%= @piece.name %>
+	</h1>
+	<h3 class="created">
+		<%= @piece.created %>
+	</h3>
+	<img src="<%= @piece.full_img_url %>" class="portfolioImageFull" />
+	<p class="description">
+		<%= @piece.note %>
+	</p>
+</div>
+<%= link_to 'Edit', edit_piece_path(@piece) %> |
+<%= link_to 'Back', pieces_path %>

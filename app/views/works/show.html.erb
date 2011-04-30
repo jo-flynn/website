@@ -1,0 +1,15 @@
+<div class="work">
+	<h1 class="title"> 
+		<%= @work.name %>
+	</h1>
+	<h2 class="thin date">
+		<%= @work.created.strftime("%m.%d.%Y") %>
+	</h3>
+	<img src="<%= @work.full_img_url %>" class="portfolioImageFull" />
+	<h3 class="about">
+		About:
+	</h3>
+	<p class="description">
+		<%= @work.note %>
+	</p>
+</div>

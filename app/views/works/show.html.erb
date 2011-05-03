@@ -3,13 +3,12 @@
 		<%= @work.name %>
 	</h1>
 	<h2 class="thin date">
-		<%= @work.created.strftime("%m.%d.%Y") %>
+		<%= @work.created.strftime("%B %Y") %>
 	</h3>
-	<img src="<%= @work.full_img_url %>" class="portfolioImageFull" />
+	<img src="<%= @work.full_img_url %>" class="portfolioImage" />
 	<h3 class="about">
 		About:
 	</h3>
-	<p class="description">
-		<%= @work.note %>
-	</p>
+	<%= simple_format(@work.note, :class => 'description').html_safe %>
+	
 </div>

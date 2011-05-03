@@ -34,6 +34,7 @@ a {
 	-moz-transition-duration: 0.3s, 0.3s;
 	transition-property: color;
 	transition-duration: 0.3s, 0.3s;
+	text-decoration:none;
 }
 #works .work {
 	list-style:none;
@@ -59,7 +60,7 @@ ol {
     margin:0;
 }
 
-.title {
+h1 {
 	font-weight:900;
 }
 
@@ -130,4 +131,33 @@ ol {
 .date {
 	color:#999;
 	line-height:.8;
+}
+figure {
+	padding-left:0;
+	margin-left:0;
+}
+figcaption {
+	font-size:14px;
+	background-color: black;
+	color: white;
+	margin-top: -15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+#footer {
+	text-align:left;
+	color:#888;
+	font-weight:900;
+	border-top:1px double #bbb;
+	padding-top:5px;
+}
+
+.portfolioImage {
+	border:1px solid #888;
+	-moz-box-shadow: 2px 2px 5px #888;
+	-webkit-box-shadow: 2px 2px 5px #888;
+	box-shadow: 2px 2px 5px #888;
 }

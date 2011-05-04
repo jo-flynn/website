@@ -137,10 +137,10 @@ figure {
 	margin-left:0;
 }
 figcaption {
-	font-size:14px; /*
+	font-size:12px; /*
 	background-color: black;
-	color: white;
-	margin-top: -15px;
+	color: white;*/
+	margin-top: 5px;/*
 	padding-left: 20px;
 	/*padding-right: 20px;
 	padding-bottom: 10px;

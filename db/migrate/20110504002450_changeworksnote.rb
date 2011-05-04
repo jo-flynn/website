@@ -1,6 +1,6 @@
 class Changeworksnote < ActiveRecord::Migration
   def self.up
-    change_column(:works, :note, :text, :limit => 3000)
+    change_column(:works, :note, :text)
   end
 
   def self.down

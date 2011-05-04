@@ -1,5 +1,5 @@
 Portfolio::Application.routes.draw do
-  resources :works#, :only => [:index, :show]
+  resources :works, :only => [:index, :show]
   
   #match 'works/:id' => 'work#show'
   

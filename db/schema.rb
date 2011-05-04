@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110428031602) do
+ActiveRecord::Schema.define(:version => 20110504002450) do
 
   create_table "pieces", :force => true do |t|
     t.string   "name"
@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(:version => 20110428031602) do
     t.date     "created"
     t.string   "preview_img_url"
     t.string   "full_img_url"
-    t.string   "note"
+    t.text     "note",            :limit => 3000
     t.boolean  "visible"
     t.datetime "created_at"
     t.datetime "updated_at"

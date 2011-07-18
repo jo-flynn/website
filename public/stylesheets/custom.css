@@ -4,6 +4,10 @@
 	float:right;
 }
 
+#menu a, .logo a, .date a, .time a, #works a, header a, .title a {
+	border-bottom:none;
+}
+
 #menu li {
 	float:left;
 	font-size: 30px;
@@ -37,22 +41,14 @@ a {
 	border-bottom:1px dotted #37adcc;
 }
 
-header a {
-	border-bottom:none;
-}
-
 a:hover {
 	color:#37adcc;
 }
 
-#works .work {
+#works .work, #posts .post {
 	list-style:none;
 	margin: 0 0 2em 0;
 	clear:both;
-}
-
-#works a {
-	border-bottom:none;
 }
 
 ol {
@@ -79,7 +75,6 @@ h1 {
 
 .title a {
     color:#000;
-    /*border-top:5px solid #000;*/
     text-decoration:none;
 }
 
@@ -102,7 +97,7 @@ h1 {
 }
 
 .forward {
-   text-align:right; 
+   float:right;
 }
 
 .source {
@@ -126,6 +121,10 @@ h1 {
 	line-height:.8;
 }
 
+.page {
+	text-align:center;
+}
+
 #photo-caption {
 	font-size:14px;
 	padding: 0px 0px 5px 0px;
@@ -147,13 +146,27 @@ h1 {
 	box-shadow: 2px 2px 5px #888;
 }
 
-#social-media {
-
-}
-
 #social-media img {
 	padding-right:20px;
 }
 #social-media a {
 	border-bottom:none;
+}
+
+blockquote { quotes: "\201C" "\201D"; }
+
+blockquote:before {
+    color: #999999;
+    content: open-quote;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -3px;
+    font-weight: 900;
+}
+blockquote {
+    font-size: 14px;
+}
+blockquote > p {
+    margin-left: 25px;
 }

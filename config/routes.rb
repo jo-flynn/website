@@ -1,4 +1,6 @@
 Portfolio::Application.routes.draw do
+  devise_for :users
+
   resources :works, :only => [:index, :show]
   
   #match 'works/:id' => 'work#show'
@@ -62,6 +64,5 @@ Portfolio::Application.routes.draw do
   
   root :to => 'pages#about'
   
-  match ':action' => "pages#:action"
-  
+  match 'about' => "pages#about"
 end

@@ -2,6 +2,7 @@ Portfolio::Application.routes.draw do
   devise_for :users
 
   resources :works, :only => [:index, :show]
+  #map.resource :contact, :controller => 'contact'
   
   #match 'works/:id' => 'work#show'
   

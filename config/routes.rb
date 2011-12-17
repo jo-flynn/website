@@ -64,5 +64,6 @@ Portfolio::Application.routes.draw do
   
   root :to => 'pages#about'
   
-  match 'about' => "pages#about"
+  match 'about' => 'pages#about'
+  match 'contact' => 'contact'
 end

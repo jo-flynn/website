@@ -1,0 +1,5 @@
+one:
+    name:'John Smith'
+    from: 'john@example.com'
+    to:'me@joeflynn.net'
+    message: 'Hi there!'

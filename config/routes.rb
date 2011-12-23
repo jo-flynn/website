@@ -2,6 +2,7 @@ Portfolio::Application.routes.draw do
   devise_for :users
 
   resources :works, :only => [:index, :show]
+  #map.resource :contact, :controller => 'contact'
   
   #match 'works/:id' => 'work#show'
   
@@ -64,5 +65,6 @@ Portfolio::Application.routes.draw do
   
   root :to => 'pages#about'
   
-  match 'about' => "pages#about"
+  match 'about' => 'pages#about'
+  match 'contact' => 'contact'
 end

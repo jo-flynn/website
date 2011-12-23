@@ -11,6 +11,7 @@ gem "jquery-rails"
 # RailsAdmin stuff
 gem 'devise' # Devise must be required before RailsAdmin
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+gem 'active_form', :git => 'https://github.com/cs/active_form'
 
 # Use unicorn as the web server
 # gem 'unicorn'

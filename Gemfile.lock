@@ -7,6 +7,15 @@ GIT
       fastercsv
       rails (~> 3.0.7)
 
+GIT
+  remote: https://github.com/cs/active_form
+  revision: 4faa3514a5128234886a9ab7209c2683800c0f03
+  specs:
+    active_form (1.0.4)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      bundler (>= 1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -92,6 +101,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_form!
   devise
   jquery-rails
   rails (= 3.0.9)

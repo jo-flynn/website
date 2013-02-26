@@ -13,7 +13,7 @@
 	font-size: 30px;
 	margin-left:25px;
 	font-weight:300;
-	text-shadow:#ccc 0 1px;
+	text-shadow:#ccc 0px 1px;
 }
 
 #menu li a {
@@ -60,7 +60,7 @@ ol {
 }
 
 .title {
-    margin:0;
+    margin:0px;
     padding-top: 1px;
     /*border-top: 1px solid #000;*/
 }
@@ -105,15 +105,15 @@ h1 {
 }
 
 .work h1, .work h2 {
-	padding:0;
+	padding:0px;
 }
 
 .thin {
 	font-weight: 300;
-	padding-bottom:0;
+	padding-bottom:0px;
 }
 .about {
-	margin: 0;
+	margin: 0px;
 }
 
 .date {
@@ -127,8 +127,8 @@ h1 {
 
 #photo-caption {
 	font-size:14px;
-	padding: 0 0 5px 0;
-	margin: 0 0 5px 0;
+	padding: 0px 0px 5px 0px;
+	margin: 0px 0px 5px 0px;
 }
 
 #footer {
@@ -160,13 +160,17 @@ blockquote:before {
     content: open-quote;
     float: left;
     font-size: 28px;
+    font-weight: bold;
     margin-top: -3px;
-    font-weight: 900;
-    padding-right:10px;
+    padding-right: 10px;
 }
 blockquote {
     font-size: 14px;
 }
 blockquote > p {
     margin-left: 25px;
+}
+
+.photo a {
+    border-bottom: none;
 }
